@@ -319,6 +319,8 @@ body {
     padding: 20px 10px;
 }
 
+<<<<<<< new-footer
+=======
 .lifestyle-title h1 {
     font-weight: 700;
     font-size: 24px;
@@ -403,196 +405,125 @@ img[src*="shape.png"]:hover {
 
 second-section
 /* second-section */
+>>>>>>> main
 
 
-.second-section{
-    max-width: 1204px;
+
+
+/* footer */
+
+
+.footer-section{
+    max-width: 1440px;
     margin: 0 auto;
-    box-shadow: 0px 6px 6px 0px #0000000D;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 97px;
-
-}
-
-
-.image img{
-    width: 1204px;
-    height: 360px;
-    border-radius: 20px;
-    position: relative;
-    transition: .3s;
-}
-
-
-.image img:hover{
-    transform: scale(1.1);
-}
-
-
-
-.image a{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    text-align: center;
-    padding: 10.66px 81.6px 9.31px 81.73px;
-    background-color: #262626;
+    height: 308px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 87px 89px 37px 84px;
+    box-shadow: 2px 0px 6px 0px #0000000D;
     color: #FFFFFF;
-    border-radius: 20px;
-    position: absolute;
-    left: 220px;
-    top: 23.34px;
-    transition: .3s;
+    margin-top: 69px;
 }
 
 
-.image a:hover{
-    transform: scale(1.2);
-    background-color: #4CE0D7;
-    color: black;
-}
-
-
-.fashion{
+.footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 23.34px;
+    box-shadow: 1px;
     align-items: center;
-    padding: 0 64px 29.5px 64px;
+    padding-bottom: 77px;
+    color: #BCBCBC;
+    border-bottom: 1px solid #BCBCBC;
+    margin-bottom: 34px;
 }
 
 
-.coming-in-hot{
-    width: 216px;
-    height: 23px;
-}
-
-
-
-.coming-in-hot a{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 2px;
-    color: #F25E5E;
-    transition: all .3s ease;
-    display: block;
-}
-
-
-.coming-in-hot a:hover{
-    transform: scale(1.3);
-    color: #4CE0D7;
+.footer-image img{
+    width: 226px;
+    transition: 0.3s;
 }
 
 
 
-.small-image{
+.footer-image img:hover{
+    transform: scale(1.2);
+}
+
+
+.icons{
     display: flex;
     align-items: center;
     gap: 21px;
 }
 
 
-
-
-.small-image img{
-    width: 65.67px;
-    height: 50.77px;
-    border-radius: 50%;
-    transition: .3s;
-}
-
-
-.small-image img:hover{
-    transform: scale(1.3);
-}
-
-
-
-.fashion h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #BCBCBC;
-    text-align: left;
-
-}
-
-
-
-.small-image h6{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #BCBCBC;
-    margin-left: 110px;
-
-}
-
-
-.fashion-tittle{
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
-    width: 1037px;
-    height: 134px;
-    padding: 0 96px 40px 64px;
-}
-
-
-.fashion-tittle h1{
+.icons h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 26px;
     color: #262626;
+    margin-right: 15px;
+}
+
+
+.icons img{
+    width: 31px;
+    height: 31px;
+    transition: 0.3s;
+}
+
+
+.icons img:hover{
+    transform: scale(1.4);
 }
 
 
 
-.fashion-tittle p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #262626;
-    max-width: 800px;
-    
-}
-
-
-
-.read-more{
-    display: flex;
-    align-items: center;
-    padding: 30px 51px;
-    gap: 11px;
-}
-
-
-
-.arrow{
-    font-size: 30px !important;
-    color:#4CE0D7 ;
-    padding: 13.33px 14.88px;
-}
-
-
-
-.read-more a{
+.footer-section a{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 2px;
-    color: #4CE0D7;
+    font-size: 14px;
+    color: #262626;
     transition: .3s;
 }
 
 
-.read-more a:hover{
-    transform: scale(1.3);
-    color: rgb(0, 58, 11);
+
+.footer-section a:hover{
+    transform: scale(1.5);
+    color: rgb(84, 168, 1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
