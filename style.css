@@ -4,6 +4,19 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+/* first section */
+
+
+
 .topics {
     padding-left: 84px;
     display:flex;
@@ -22,7 +35,6 @@
   
 }
 .topic-card{
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
